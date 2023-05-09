@@ -6,7 +6,7 @@ function parsePartCode(product) {
     let newPart = {
         supplierCode: partsArr[0],
         productNumber: partsArr[1],
-        size: partsArr[2]
+        size: partsArr[2],
     }
     return newPart;
 }
